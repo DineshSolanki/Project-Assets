@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420">
+<defs>
+ <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B69AFF"/><stop offset=".48" stop-color="#7651E8"/><stop offset="1" stop-color="#4930A5"/></linearGradient>
+ <linearGradient id="front" x1="0" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#D5C2FF"/><stop offset=".4" stop-color="#8F6BFF"/><stop offset="1" stop-color="#6038D9"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#242044"/><stop offset="1" stop-color="#111020"/></linearGradient>
+</defs>
+<g transform="translate(38 28) scale(.78)">
+ <path d="M64 143 Q64 105 102 105 H176 L212 144 H330 Q368 144 368 182 V333 Q368 370 331 370 H101 Q64 370 64 333 Z" fill="url(#back)"/>
+ <path d="M88 177 Q88 154 113 154 H329 Q350 154 350 178 V332 Q350 352 328 352 H110 Q88 352 88 330 Z" fill="url(#dark)"/>
+ <path d="M112 207 Q112 186 134 186 H323 Q337 186 327 200 L301 231 Q295 238 282 238 H182 V271 H287 Q299 271 290 284 L267 313 Q262 320 250 320 H182 V347 Q182 363 166 374 L118 407 Q103 417 103 397 V237 Q103 207 112 207 Z" fill="url(#front)"/>
+ <path d="M134 187 H323" fill="none" stroke="#F5F3FF" stroke-opacity=".9" stroke-width="3" stroke-linecap="round"/>
+ <path d="M183 239 V270 H287" fill="none" stroke="#E8DFFF" stroke-opacity=".7" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<text x="390" y="222" font-family="DejaVu Sans, Arial, sans-serif" font-size="148" font-weight="700" letter-spacing="-7" fill="#F5F3FF">Foli<tspan fill="#9B7AFF">Con</tspan></text>
+<text x="402" y="294" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" font-weight="500" letter-spacing="2.6" fill="#BDB8D4">YOUR MEDIA. YOUR LIBRARY. REIMAGINED.</text>
+</svg>

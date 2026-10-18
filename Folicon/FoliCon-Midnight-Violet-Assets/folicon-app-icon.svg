@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+  <linearGradient id="folderBack" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#B69AFF"/>
+    <stop offset="0.45" stop-color="#7651E8"/>
+    <stop offset="1" stop-color="#4930A5"/>
+  </linearGradient>
+  <linearGradient id="folderFront" x1="0" y1="0" x2="0.9" y2="1">
+    <stop offset="0" stop-color="#D5C2FF"/>
+    <stop offset="0.38" stop-color="#8F6BFF"/>
+    <stop offset="1" stop-color="#6038D9"/>
+  </linearGradient>
+  <linearGradient id="darkPanel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#242044"/>
+    <stop offset="1" stop-color="#111020"/>
+  </linearGradient>
+</defs>
+<!-- Optional app tile; transparent outside rounded tile -->
+<rect x="18" y="18" width="476" height="476" rx="104" fill="#17152B"/>
+<rect x="18.75" y="18.75" width="474.5" height="474.5" rx="103" fill="none" stroke="#7651E8" stroke-opacity=".65" stroke-width="1.5"/>
+<!-- Back folder -->
+<path d="M104 150 Q104 112 142 112 H216 L252 151 H370 Q408 151 408 189 V340 Q408 377 371 377 H141 Q104 377 104 340 Z"
+      fill="url(#folderBack)"/>
+<!-- Inner dark folder body -->
+<path d="M128 184 Q128 161 153 161 H369 Q390 161 390 185 V339 Q390 359 368 359 H150 Q128 359 128 337 Z"
+      fill="url(#darkPanel)"/>
+<!-- F-shaped foreground ribbon, geometric and legible -->
+<path d="M152 214 Q152 193 174 193 H363 Q377 193 367 207 L341 238 Q335 245 322 245 H222 V278 H327 Q339 278 330 291 L307 320 Q302 327 290 327 H222 V354 Q222 370 206 381 L158 414 Q143 424 143 404 V244 Q143 214 152 214 Z"
+      fill="url(#folderFront)"/>
+<!-- subtle top edge highlight -->
+<path d="M174 194 H363" fill="none" stroke="#F5F3FF" stroke-opacity=".9" stroke-width="3" stroke-linecap="round"/>
+<path d="M223 246 V277 H327" fill="none" stroke="#E8DFFF" stroke-opacity=".7" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
